@@ -51,7 +51,7 @@ public class PageControllerTest {
         String address="Bangalore";
         long categoryId=123L;
         String contactNumber="1234567890";
-        Page expected = new Page(pageId, businessName, address,categoryId, contactNumber);
+        Page expected = new Page(pageId, businessName,address,categoryId, contactNumber);
         doReturn(expected)
                 .when(pageRepository)
                 .read(pageId);
