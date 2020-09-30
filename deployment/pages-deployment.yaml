@@ -17,7 +17,7 @@ spec:
         app: pages
     spec:
       containers:
-        - image: surins/pages:1.0
+        - image: surins/pages:pipeline
           name: pages
           ports:
             - containerPort: 8080
